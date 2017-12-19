@@ -111,6 +111,34 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9360A2BF1FE91E68002079B2 /* Genal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Genal;
+			sourceTree = "<group>";
+		};
+		9360A2C01FE91E68002079B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9360A2C11FE91E68002079B2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9360A2C21FE91E9D002079B2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
 		93DE57011FCD3A8F00F9298D = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +162,13 @@
 		93DE570C1FCD3A8F00F9298D /* HomeDinner */ = {
 			isa = PBXGroup;
 			children = (
+				9360A2C21FE91E9D002079B2 /* Vendors */,
+				9360A2C11FE91E68002079B2 /* Core */,
+				9360A2BF1FE91E68002079B2 /* Genal */,
+				9360A2C01FE91E68002079B2 /* Model */,
 				93DE57BC1FCD6B4B00F9298D /* HomeDinner.entitlements */,
-				93DE57541FCD4AB800F9298D /* Core */,
-				93DE57531FCD4AB800F9298D /* General */,
-				93DE57501FCD4AB700F9298D /* Model */,
 				93DE57521FCD4AB800F9298D /* Resource */,
 				93DE57421FCD4AB700F9298D /* Sections */,
-				93DE57551FCD4AB800F9298D /* Vendors */,
 				93DE571E1FCD3A8F00F9298D /* Info.plist */,
 				93DE57161FCD3A8F00F9298D /* HomeDinner.xcdatamodeld */,
 				93DE576C1FCD4EA200F9298D /* HomeDinner.pch */,
@@ -206,13 +234,6 @@
 			path = MyMain;
 			sourceTree = "<group>";
 		};
-		93DE57501FCD4AB700F9298D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		93DE57521FCD4AB800F9298D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,27 +241,6 @@
 				93DE57721FCD537D00F9298D /* Media.xcassets */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		93DE57531FCD4AB800F9298D /* General */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		93DE57541FCD4AB800F9298D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		93DE57551FCD4AB800F9298D /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
 			sourceTree = "<group>";
 		};
 		F5BE8B1A4A681449E50099F3 /* Frameworks */ = {
