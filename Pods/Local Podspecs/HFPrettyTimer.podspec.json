@@ -1,0 +1,24 @@
+{
+  "name": "HFPrettyTimer",
+  "version": "0.0.1",
+  "summary": "NSTimmer强引用 自动化处理",
+  "description": "NSTimmer强引用 自动化处理",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "homepage": "https://github.com/helfyz/HFPrettyTimer",
+  "license": "MIT",
+  "authors": {
+    "helfy": "562812743@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:helfyz/HFPrettyTimer.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "HFPrettyTimer",
+    "HFPrettyTimer/**/*.{h,m}"
+  ],
+  "public_header_files": "HFPrettyTimer/**/*.h"
+}

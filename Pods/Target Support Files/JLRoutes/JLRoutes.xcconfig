@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/JLRoutes
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/JLRoutes" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFOnceKit" "${PODS_ROOT}/Headers/Public/CRGradientNavigationBar" "${PODS_ROOT}/Headers/Public/CustomIOSAlertView" "${PODS_ROOT}/Headers/Public/DACircularProgress" "${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/HFPrettyTimer" "${PODS_ROOT}/Headers/Public/HFTableViewManger" "${PODS_ROOT}/Headers/Public/JLRoutes" "${PODS_ROOT}/Headers/Public/JSONModel" "${PODS_ROOT}/Headers/Public/KVOController" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/MOBFoundation" "${PODS_ROOT}/Headers/Public/MWPhotoBrowser" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/NJKWebViewProgress" "${PODS_ROOT}/Headers/Public/OpenSSL" "${PODS_ROOT}/Headers/Public/PKYStepper" "${PODS_ROOT}/Headers/Public/PopMenu" "${PODS_ROOT}/Headers/Public/QQ_XGPush" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SMPageControl" "${PODS_ROOT}/Headers/Public/ShareSDK3" "${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell" "${PODS_ROOT}/Headers/Public/UIView+FDCollapsibleConstraints" "${PODS_ROOT}/Headers/Public/XHRealTimeBlur" "${PODS_ROOT}/Headers/Public/iCarousel" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = -framework "Foundation"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/JLRoutes
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

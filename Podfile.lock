@@ -1,0 +1,147 @@
+PODS:
+  - AFOnceKit (1.0.0)
+  - CRGradientNavigationBar (0.3.2)
+  - CustomIOSAlertView (0.9.5)
+  - DACircularProgress (2.3.1)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HFPrettyTimer (0.0.1)
+  - HFTableViewManger (0.0.2):
+    - UITableView+FDTemplateLayoutCell
+  - iCarousel (1.8.3)
+  - JLRoutes (1.5.5)
+  - JSONModel (1.2.0)
+  - KVOController (1.0.3)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.15)
+  - MOBFoundation (2.0.11)
+  - MWPhotoBrowser (2.1.1):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - OpenSSL (1.0.210)
+  - PKYStepper (0.0.1)
+  - pop (1.0.10)
+  - PopMenu (2.4):
+    - pop
+    - XHRealTimeBlur
+  - QQ_XGPush (3.0)
+  - Reachability (3.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - ShareSDK3 (3.3.2):
+    - ShareSDK3/ShareSDK (= 3.3.2)
+  - ShareSDK3/ShareSDK (3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.3.2)
+  - SMPageControl (1.2)
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - UIView+FDCollapsibleConstraints (1.1)
+  - XHRealTimeBlur (1.7)
+
+DEPENDENCIES:
+  - AFOnceKit (~> 1.0.0)
+  - CRGradientNavigationBar (~> 0.3.2)
+  - CustomIOSAlertView (~> 0.9.3)
+  - FDFullscreenPopGesture (from `https://github.com/qpwang/FDFullscreenPopGesture.git`, commit `3c801945dbe4271e34a7cc96e29be9a11274b6d4`)
+  - FMDB (~> 2.6.2)
+  - HFPrettyTimer (from `https://github.com/helfyz/HFPrettyTimer.git`, tag `0.1.0`)
+  - HFTableViewManger (from `https://github.com/helfyz/HFTableViewManger.git`, tag `0.0.2`)
+  - iCarousel (~> 1.8.1)
+  - JLRoutes (~> 1.5.2)
+  - JSONModel (~> 1.2.0)
+  - KVOController (~> 1.0.3)
+  - Masonry (~> 0.6.1)
+  - MBProgressHUD (~> 0.9)
+  - MJRefresh (~> 3.1.0)
+  - MOBFoundation (~> 2.0.4)
+  - MWPhotoBrowser (from `https://github.com/you520t/MWPhotoBrowser.git`, commit `6e252ae`)
+  - NJKWebViewProgress (~> 0.2.3)
+  - OpenSSL (~> 1.0.208)
+  - PKYStepper (~> 0.0.1)
+  - pop (~> 1.0.9)
+  - PopMenu (~> 2.4)
+  - QQ_XGPush
+  - Reachability (~> 3.2)
+  - SDWebImage (~> 3.8.0)
+  - ShareSDK3 (~> 3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/QQ (~> 3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (~> 3.3.2)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (~> 3.3.2)
+  - SMPageControl (~> 1.2)
+  - UITableView+FDTemplateLayoutCell (~> 1.3)
+  - UIView+FDCollapsibleConstraints (~> 1.1)
+
+EXTERNAL SOURCES:
+  FDFullscreenPopGesture:
+    :commit: 3c801945dbe4271e34a7cc96e29be9a11274b6d4
+    :git: https://github.com/qpwang/FDFullscreenPopGesture.git
+  HFPrettyTimer:
+    :git: https://github.com/helfyz/HFPrettyTimer.git
+    :tag: 0.1.0
+  HFTableViewManger:
+    :git: https://github.com/helfyz/HFTableViewManger.git
+    :tag: 0.0.2
+  MWPhotoBrowser:
+    :commit: 6e252ae
+    :git: https://github.com/you520t/MWPhotoBrowser.git
+
+CHECKOUT OPTIONS:
+  FDFullscreenPopGesture:
+    :commit: 3c801945dbe4271e34a7cc96e29be9a11274b6d4
+    :git: https://github.com/qpwang/FDFullscreenPopGesture.git
+  HFPrettyTimer:
+    :git: https://github.com/helfyz/HFPrettyTimer.git
+    :tag: 0.1.0
+  HFTableViewManger:
+    :git: https://github.com/helfyz/HFTableViewManger.git
+    :tag: 0.0.2
+  MWPhotoBrowser:
+    :commit: 6e252ae
+    :git: https://github.com/you520t/MWPhotoBrowser.git
+
+SPEC CHECKSUMS:
+  AFOnceKit: 3f7917561e588e995af8e650e683caa4cff4ea15
+  CRGradientNavigationBar: ee6fa0398e3d64af32a792b63336e094bb55402e
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HFPrettyTimer: fc651bdd260226439857c01190c72f4b97830111
+  HFTableViewManger: 9eb132abcb051a22ec7f9d36777bad322eccecc4
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  JLRoutes: d191a496b820f60d70225202d04289582da962df
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  MOBFoundation: e213065e65eebd8146ab29d10a8445dc8f385091
+  MWPhotoBrowser: cebf3540db6b5116f1ad3e3e4c1b9aa11c0bf25f
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  OpenSSL: 246ffb948e9d56466727fd318134af35f5aa764e
+  PKYStepper: 8dacefbddf9fa2b6aaec2ef828b46a78daa2db7d
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
+  QQ_XGPush: 149a8e2b63ee21fe2680428e9b5e9d8ce6c6e2c4
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  ShareSDK3: c76cb96eb38e079952b8157071486d945faa2df2
+  SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  UIView+FDCollapsibleConstraints: 9357eaf03b4e088263ab74a3b86a382a64ce38dd
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
+
+PODFILE CHECKSUM: 562da3e5e6039f5b63491658015ea4efaa9904b0
+
+COCOAPODS: 1.3.1

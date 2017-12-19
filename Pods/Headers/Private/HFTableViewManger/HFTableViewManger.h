@@ -1,0 +1,1 @@
+../../../HFTableViewManger/HFTableViewManger/Classes/HFTableViewManger.h

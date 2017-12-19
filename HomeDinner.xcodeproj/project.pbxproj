@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07377625B4CC08F1BE61222C /* libPods-HomeDinner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C41ABD033CD61224AD146AD9 /* libPods-HomeDinner.a */; };
+		93DE57181FCD3A8F00F9298D /* HomeDinner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93DE57161FCD3A8F00F9298D /* HomeDinner.xcdatamodeld */; };
+		93DE57561FCD4AB800F9298D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE57471FCD4AB700F9298D /* AppDelegate.m */; };
+		93DE57571FCD4AB800F9298D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DE57481FCD4AB700F9298D /* LaunchScreen.storyboard */; };
+		93DE57581FCD4AB800F9298D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DE574A1FCD4AB700F9298D /* Main.storyboard */; };
+		93DE57591FCD4AB800F9298D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE574C1FCD4AB700F9298D /* main.m */; };
+		93DE575A1FCD4AB800F9298D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE574E1FCD4AB700F9298D /* ViewController.m */; };
+		93DE575D1FCD4AEF00F9298D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DE575C1FCD4AEF00F9298D /* Assets.xcassets */; };
+		93DE57601FCD4C7F00F9298D /* HLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE575F1FCD4C7F00F9298D /* HLBaseViewController.m */; };
+		93DE57631FCD4D4D00F9298D /* HLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE57621FCD4D4D00F9298D /* HLBaseNavigationController.m */; };
+		93DE57661FCD4DBF00F9298D /* HLHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE57651FCD4DBF00F9298D /* HLHomeTabBarController.m */; };
+		93DE576A1FCD4E2000F9298D /* HLMyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE57681FCD4E2000F9298D /* HLMyMainViewController.m */; };
+		93DE576B1FCD4E2000F9298D /* HLMyMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DE57691FCD4E2000F9298D /* HLMyMainViewController.xib */; };
+		93DE57701FCD504A00F9298D /* HLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE576E1FCD504A00F9298D /* HLHomeViewController.m */; };
+		93DE57711FCD504A00F9298D /* HLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DE576F1FCD504A00F9298D /* HLHomeViewController.xib */; };
+		93DE57731FCD537D00F9298D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DE57721FCD537D00F9298D /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93DE57261FCD3A9000F9298D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DE57021FCD3A8F00F9298D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DE57091FCD3A8F00F9298D;
+			remoteInfo = HomeDinner;
+		};
+		93DE57311FCD3A9000F9298D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DE57021FCD3A8F00F9298D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DE57091FCD3A8F00F9298D;
+			remoteInfo = HomeDinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		215379CE8853C13D076E667E /* Pods-HomeDinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeDinner/Pods-HomeDinner.debug.xcconfig"; sourceTree = "<group>"; };
+		93DE570A1FCD3A8F00F9298D /* HomeDinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DE57171FCD3A8F00F9298D /* HomeDinner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeDinner.xcdatamodel; sourceTree = "<group>"; };
+		93DE571E1FCD3A8F00F9298D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DE57251FCD3A9000F9298D /* HomeDinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DE57301FCD3A9000F9298D /* HomeDinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDinnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DE57461FCD4AB700F9298D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93DE57471FCD4AB700F9298D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93DE57491FCD4AB700F9298D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93DE574B1FCD4AB700F9298D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93DE574C1FCD4AB700F9298D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93DE574D1FCD4AB700F9298D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93DE574E1FCD4AB700F9298D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93DE575C1FCD4AEF00F9298D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93DE575E1FCD4C7F00F9298D /* HLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBaseViewController.h; sourceTree = "<group>"; };
+		93DE575F1FCD4C7F00F9298D /* HLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBaseViewController.m; sourceTree = "<group>"; };
+		93DE57611FCD4D4D00F9298D /* HLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBaseNavigationController.h; sourceTree = "<group>"; };
+		93DE57621FCD4D4D00F9298D /* HLBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBaseNavigationController.m; sourceTree = "<group>"; };
+		93DE57641FCD4DBF00F9298D /* HLHomeTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHomeTabBarController.h; sourceTree = "<group>"; };
+		93DE57651FCD4DBF00F9298D /* HLHomeTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHomeTabBarController.m; sourceTree = "<group>"; };
+		93DE57671FCD4E2000F9298D /* HLMyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMyMainViewController.h; sourceTree = "<group>"; };
+		93DE57681FCD4E2000F9298D /* HLMyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMyMainViewController.m; sourceTree = "<group>"; };
+		93DE57691FCD4E2000F9298D /* HLMyMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLMyMainViewController.xib; sourceTree = "<group>"; };
+		93DE576C1FCD4EA200F9298D /* HomeDinner.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDinner.pch; sourceTree = "<group>"; };
+		93DE576D1FCD504A00F9298D /* HLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHomeViewController.h; sourceTree = "<group>"; };
+		93DE576E1FCD504A00F9298D /* HLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHomeViewController.m; sourceTree = "<group>"; };
+		93DE576F1FCD504A00F9298D /* HLHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLHomeViewController.xib; sourceTree = "<group>"; };
+		93DE57721FCD537D00F9298D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		93DE57BC1FCD6B4B00F9298D /* HomeDinner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeDinner.entitlements; sourceTree = "<group>"; };
+		C41ABD033CD61224AD146AD9 /* libPods-HomeDinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeDinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED72CF25C8023ADCBD383AB8 /* Pods-HomeDinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeDinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeDinner/Pods-HomeDinner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93DE57071FCD3A8F00F9298D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07377625B4CC08F1BE61222C /* libPods-HomeDinner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE57221FCD3A9000F9298D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE572D1FCD3A9000F9298D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76BC2D90E193550D854988B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215379CE8853C13D076E667E /* Pods-HomeDinner.debug.xcconfig */,
+				ED72CF25C8023ADCBD383AB8 /* Pods-HomeDinner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93DE57011FCD3A8F00F9298D = {
+			isa = PBXGroup;
+			children = (
+				93DE570C1FCD3A8F00F9298D /* HomeDinner */,
+				93DE570B1FCD3A8F00F9298D /* Products */,
+				76BC2D90E193550D854988B6 /* Pods */,
+				F5BE8B1A4A681449E50099F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93DE570B1FCD3A8F00F9298D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DE570A1FCD3A8F00F9298D /* HomeDinner.app */,
+				93DE57251FCD3A9000F9298D /* HomeDinnerTests.xctest */,
+				93DE57301FCD3A9000F9298D /* HomeDinnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DE570C1FCD3A8F00F9298D /* HomeDinner */ = {
+			isa = PBXGroup;
+			children = (
+				93DE57BC1FCD6B4B00F9298D /* HomeDinner.entitlements */,
+				93DE57541FCD4AB800F9298D /* Core */,
+				93DE57531FCD4AB800F9298D /* General */,
+				93DE57501FCD4AB700F9298D /* Model */,
+				93DE57521FCD4AB800F9298D /* Resource */,
+				93DE57421FCD4AB700F9298D /* Sections */,
+				93DE57551FCD4AB800F9298D /* Vendors */,
+				93DE571E1FCD3A8F00F9298D /* Info.plist */,
+				93DE57161FCD3A8F00F9298D /* HomeDinner.xcdatamodeld */,
+				93DE576C1FCD4EA200F9298D /* HomeDinner.pch */,
+			);
+			path = HomeDinner;
+			sourceTree = "<group>";
+		};
+		93DE57421FCD4AB700F9298D /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				93DE57431FCD4AB700F9298D /* Base */,
+				93DE57441FCD4AB700F9298D /* Home */,
+				93DE57451FCD4AB700F9298D /* Main */,
+				93DE574F1FCD4AB700F9298D /* MyMain */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		93DE57431FCD4AB700F9298D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				93DE575E1FCD4C7F00F9298D /* HLBaseViewController.h */,
+				93DE575F1FCD4C7F00F9298D /* HLBaseViewController.m */,
+				93DE57611FCD4D4D00F9298D /* HLBaseNavigationController.h */,
+				93DE57621FCD4D4D00F9298D /* HLBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		93DE57441FCD4AB700F9298D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93DE57641FCD4DBF00F9298D /* HLHomeTabBarController.h */,
+				93DE57651FCD4DBF00F9298D /* HLHomeTabBarController.m */,
+				93DE576D1FCD504A00F9298D /* HLHomeViewController.h */,
+				93DE576E1FCD504A00F9298D /* HLHomeViewController.m */,
+				93DE576F1FCD504A00F9298D /* HLHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		93DE57451FCD4AB700F9298D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				93DE57461FCD4AB700F9298D /* AppDelegate.h */,
+				93DE57471FCD4AB700F9298D /* AppDelegate.m */,
+				93DE57481FCD4AB700F9298D /* LaunchScreen.storyboard */,
+				93DE574A1FCD4AB700F9298D /* Main.storyboard */,
+				93DE574C1FCD4AB700F9298D /* main.m */,
+				93DE574D1FCD4AB700F9298D /* ViewController.h */,
+				93DE574E1FCD4AB700F9298D /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		93DE574F1FCD4AB700F9298D /* MyMain */ = {
+			isa = PBXGroup;
+			children = (
+				93DE57671FCD4E2000F9298D /* HLMyMainViewController.h */,
+				93DE57681FCD4E2000F9298D /* HLMyMainViewController.m */,
+				93DE57691FCD4E2000F9298D /* HLMyMainViewController.xib */,
+			);
+			path = MyMain;
+			sourceTree = "<group>";
+		};
+		93DE57501FCD4AB700F9298D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93DE57521FCD4AB800F9298D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				93DE575C1FCD4AEF00F9298D /* Assets.xcassets */,
+				93DE57721FCD537D00F9298D /* Media.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		93DE57531FCD4AB800F9298D /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		93DE57541FCD4AB800F9298D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93DE57551FCD4AB800F9298D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		F5BE8B1A4A681449E50099F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C41ABD033CD61224AD146AD9 /* libPods-HomeDinner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93DE57091FCD3A8F00F9298D /* HomeDinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DE57391FCD3A9000F9298D /* Build configuration list for PBXNativeTarget "HomeDinner" */;
+			buildPhases = (
+				66C586F11B6F0F53DB590582 /* [CP] Check Pods Manifest.lock */,
+				93DE57061FCD3A8F00F9298D /* Sources */,
+				93DE57071FCD3A8F00F9298D /* Frameworks */,
+				93DE57081FCD3A8F00F9298D /* Resources */,
+				9B576CA308EB82A3F12BC5CB /* [CP] Embed Pods Frameworks */,
+				C7691887EB4DFBC9F07D3059 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeDinner;
+			productName = HomeDinner;
+			productReference = 93DE570A1FCD3A8F00F9298D /* HomeDinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93DE57241FCD3A9000F9298D /* HomeDinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DE573C1FCD3A9000F9298D /* Build configuration list for PBXNativeTarget "HomeDinnerTests" */;
+			buildPhases = (
+				93DE57211FCD3A9000F9298D /* Sources */,
+				93DE57221FCD3A9000F9298D /* Frameworks */,
+				93DE57231FCD3A9000F9298D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DE57271FCD3A9000F9298D /* PBXTargetDependency */,
+			);
+			name = HomeDinnerTests;
+			productName = HomeDinnerTests;
+			productReference = 93DE57251FCD3A9000F9298D /* HomeDinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93DE572F1FCD3A9000F9298D /* HomeDinnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DE573F1FCD3A9000F9298D /* Build configuration list for PBXNativeTarget "HomeDinnerUITests" */;
+			buildPhases = (
+				93DE572C1FCD3A9000F9298D /* Sources */,
+				93DE572D1FCD3A9000F9298D /* Frameworks */,
+				93DE572E1FCD3A9000F9298D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DE57321FCD3A9000F9298D /* PBXTargetDependency */,
+			);
+			name = HomeDinnerUITests;
+			productName = HomeDinnerUITests;
+			productReference = 93DE57301FCD3A9000F9298D /* HomeDinnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DE57021FCD3A8F00F9298D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					93DE57091FCD3A8F00F9298D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					93DE57241FCD3A9000F9298D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93DE57091FCD3A8F00F9298D;
+					};
+					93DE572F1FCD3A9000F9298D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93DE57091FCD3A8F00F9298D;
+					};
+				};
+			};
+			buildConfigurationList = 93DE57051FCD3A8F00F9298D /* Build configuration list for PBXProject "HomeDinner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93DE57011FCD3A8F00F9298D;
+			productRefGroup = 93DE570B1FCD3A8F00F9298D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DE57091FCD3A8F00F9298D /* HomeDinner */,
+				93DE57241FCD3A9000F9298D /* HomeDinnerTests */,
+				93DE572F1FCD3A9000F9298D /* HomeDinnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DE57081FCD3A8F00F9298D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DE57581FCD4AB800F9298D /* Main.storyboard in Resources */,
+				93DE576B1FCD4E2000F9298D /* HLMyMainViewController.xib in Resources */,
+				93DE57711FCD504A00F9298D /* HLHomeViewController.xib in Resources */,
+				93DE575D1FCD4AEF00F9298D /* Assets.xcassets in Resources */,
+				93DE57731FCD537D00F9298D /* Media.xcassets in Resources */,
+				93DE57571FCD4AB800F9298D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE57231FCD3A9000F9298D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE572E1FCD3A9000F9298D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66C586F11B6F0F53DB590582 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeDinner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B576CA308EB82A3F12BC5CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeDinner/Pods-HomeDinner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7691887EB4DFBC9F07D3059 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HomeDinner/Pods-HomeDinner-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle,
+				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeDinner/Pods-HomeDinner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93DE57061FCD3A8F00F9298D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DE57561FCD4AB800F9298D /* AppDelegate.m in Sources */,
+				93DE576A1FCD4E2000F9298D /* HLMyMainViewController.m in Sources */,
+				93DE57591FCD4AB800F9298D /* main.m in Sources */,
+				93DE575A1FCD4AB800F9298D /* ViewController.m in Sources */,
+				93DE57661FCD4DBF00F9298D /* HLHomeTabBarController.m in Sources */,
+				93DE57701FCD504A00F9298D /* HLHomeViewController.m in Sources */,
+				93DE57601FCD4C7F00F9298D /* HLBaseViewController.m in Sources */,
+				93DE57181FCD3A8F00F9298D /* HomeDinner.xcdatamodeld in Sources */,
+				93DE57631FCD4D4D00F9298D /* HLBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE57211FCD3A9000F9298D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE572C1FCD3A9000F9298D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93DE57271FCD3A9000F9298D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DE57091FCD3A8F00F9298D /* HomeDinner */;
+			targetProxy = 93DE57261FCD3A9000F9298D /* PBXContainerItemProxy */;
+		};
+		93DE57321FCD3A9000F9298D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DE57091FCD3A8F00F9298D /* HomeDinner */;
+			targetProxy = 93DE57311FCD3A9000F9298D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93DE57481FCD4AB700F9298D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DE57491FCD4AB700F9298D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		93DE574A1FCD4AB700F9298D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DE574B1FCD4AB700F9298D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93DE57371FCD3A9000F9298D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93DE57381FCD3A9000F9298D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93DE573A1FCD3A9000F9298D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215379CE8853C13D076E667E /* Pods-HomeDinner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeDinner/HomeDinner.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6LUZ4LMDZ4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HomeDinner/HomeDinner.pch";
+				INFOPLIST_FILE = HomeDinner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesai.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eed69522-55de-4428-acc4-6690d01295f2";
+				PROVISIONING_PROFILE_SPECIFIER = wesai_development;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93DE573B1FCD3A9000F9298D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED72CF25C8023ADCBD383AB8 /* Pods-HomeDinner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeDinner/HomeDinner.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6LUZ4LMDZ4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HomeDinner/HomeDinner.pch";
+				INFOPLIST_FILE = HomeDinner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesai.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "226e81b8-7567-4d55-be6e-46a6f472430f";
+				PROVISIONING_PROFILE_SPECIFIER = weisai_test;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93DE573D1FCD3A9000F9298D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFEJW3ZB4W;
+				INFOPLIST_FILE = HomeDinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDinnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDinner.app/HomeDinner";
+			};
+			name = Debug;
+		};
+		93DE573E1FCD3A9000F9298D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFEJW3ZB4W;
+				INFOPLIST_FILE = HomeDinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDinnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDinner.app/HomeDinner";
+			};
+			name = Release;
+		};
+		93DE57401FCD3A9000F9298D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFEJW3ZB4W;
+				INFOPLIST_FILE = HomeDinnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDinnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDinner;
+			};
+			name = Debug;
+		};
+		93DE57411FCD3A9000F9298D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFEJW3ZB4W;
+				INFOPLIST_FILE = HomeDinnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeDinnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDinner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93DE57051FCD3A8F00F9298D /* Build configuration list for PBXProject "HomeDinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DE57371FCD3A9000F9298D /* Debug */,
+				93DE57381FCD3A9000F9298D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DE57391FCD3A9000F9298D /* Build configuration list for PBXNativeTarget "HomeDinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DE573A1FCD3A9000F9298D /* Debug */,
+				93DE573B1FCD3A9000F9298D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DE573C1FCD3A9000F9298D /* Build configuration list for PBXNativeTarget "HomeDinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DE573D1FCD3A9000F9298D /* Debug */,
+				93DE573E1FCD3A9000F9298D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DE573F1FCD3A9000F9298D /* Build configuration list for PBXNativeTarget "HomeDinnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DE57401FCD3A9000F9298D /* Debug */,
+				93DE57411FCD3A9000F9298D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93DE57161FCD3A8F00F9298D /* HomeDinner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93DE57171FCD3A8F00F9298D /* HomeDinner.xcdatamodel */,
+			);
+			currentVersion = 93DE57171FCD3A8F00F9298D /* HomeDinner.xcdatamodel */;
+			path = HomeDinner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93DE57021FCD3A8F00F9298D /* Project object */;
+}
