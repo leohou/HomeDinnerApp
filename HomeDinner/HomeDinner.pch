@@ -25,7 +25,7 @@
 #import <ShareSDK/ShareSDK.h>
 #import <StoreKit/StoreKit.h>
 #import <CRGradientNavigationBar.h>
-//自定义viewcontroller 测试会不会提交 在此 测试
+//自定义viewcontroller 测试会不会提交 在此 测试 哈哈哈
 #import "HLMyMainViewController.h"
 #import "HLBaseViewController.h"
 #import "HLHomeViewController.h"
